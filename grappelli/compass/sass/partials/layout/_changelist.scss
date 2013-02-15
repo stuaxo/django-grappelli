@@ -29,12 +29,14 @@
 			    &:hover {
 			    	color: #444;
 				    border-color: #bdbdbd;
+                    background-color: #eee;
 				    @include background-image(linear-gradient(#eee, #e0e0e0));
 			    }
 			}
 			span {
 				color: #444;
 			    border-color: #bdbdbd;
+                background-color: #eee;
 			    @include background-image(linear-gradient(#eee, #e0e0e0));
 			}
 			&.grp-results {
