@@ -417,6 +417,7 @@ ul.radiolist.inline, ul.checkboxlist.inline {
         width: 18px;
         height: 18px;
         color: transparent !important;
+        font-size: 0px; // IE
         background-position: 50% 0;
         background-repeat: no-repeat;
     }
