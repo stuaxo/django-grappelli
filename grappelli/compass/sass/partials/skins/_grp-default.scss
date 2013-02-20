@@ -311,9 +311,11 @@ $grp-button-border-focus: 1px solid #888 !default;
 /*  Predelete Gradients ............................................................ */
 
 @mixin grp-gradient-predelete {
+    background-color: #fff2f2;
 	@include background-image(linear-gradient(#fff2f2, #f2e6e6));
 }
 @mixin grp-gradient-predelete-reverse {
+    background-color: #f2e6e6;
 	@include background-image(linear-gradient(#f2e6e6, #fff2f2));
 }
 
